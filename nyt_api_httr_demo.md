@@ -101,7 +101,7 @@ content(r)$response$meta
 ## [1] 613
 ## 
 ## $time
-## [1] 26
+## [1] 21
 ## 
 ## $offset
 ## [1] 0
