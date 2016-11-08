@@ -10,7 +10,7 @@
 
 
 
-  <meta name="date" content="2016-11-06" />
+  <meta name="date" content="2016-11-07" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -88,7 +88,7 @@
       <h1 data-config-title><!-- populated from slide_config.json --></h1>
       <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
       <p data-config-presenter><!-- populated from slide_config.json --></p>
-            <p style="margin-top: 6px; margin-left: -2px;">2016-11-06</p>
+            <p style="margin-top: 6px; margin-left: -2px;">2016-11-07</p>
           </hgroup>
   </slide>
 
@@ -168,10 +168,10 @@ nyt_articlesearch_url &lt;-
 <pre class = 'prettyprint lang-r'>content(r)$response$meta</pre>
 
 <pre >## $hits
-## [1] 613
+## [1] 614
 ## 
 ## $time
-## [1] 32
+## [1] 36
 ## 
 ## $offset
 ## [1] 0</pre>
@@ -255,7 +255,7 @@ nyt_articlesearch_url &lt;-
 ##   .. .. ..$ lastname    : chr &quot;FIORDALISO&quot;
 ##   ..$ original: chr &quot;By MICHELLE FIORDALISO&quot;
 ##  $ type_of_material : chr &quot;News&quot;
-##  $ _id              : chr &quot;581c4e1c7c459f6a5fccc2f8&quot;
+##  $ _id              : chr &quot;581c4e1e95d0e01ffc1e16e9&quot;
 ##  $ word_count       : chr &quot;1494&quot;
 ##  $ slideshow_credits: NULL</pre>
 
@@ -308,7 +308,7 @@ nyt_articlesearch_url &lt;-
 hits &lt;- content(r)$response$meta$hits
 hits</pre>
 
-<pre >## [1] 613</pre>
+<pre >## [1] 614</pre>
 
 <pre class = 'prettyprint lang-r'>## 613 hits, but only 10 per &quot;page&quot;
 pages &lt;- 0:(ceiling(hits/10) - 1)</pre>

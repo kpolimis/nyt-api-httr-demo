@@ -1,7 +1,4 @@
 ## ignore data directory
 data/
-## ignore everything but html files
-!*.html
-!.gitignore
 ## ignore YAML config file with API key
 *yml
