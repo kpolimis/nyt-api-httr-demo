@@ -98,10 +98,10 @@ content(r)$response$meta
 
 ```
 ## $hits
-## [1] 613
+## [1] 614
 ## 
 ## $time
-## [1] 21
+## [1] 46
 ## 
 ## $offset
 ## [1] 0
@@ -190,7 +190,7 @@ docs <- content(r)$response$docs
 ##   .. .. ..$ lastname    : chr "FIORDALISO"
 ##   ..$ original: chr "By MICHELLE FIORDALISO"
 ##  $ type_of_material : chr "News"
-##  $ _id              : chr "581c4e1c7c459f6a5fccc2f8"
+##  $ _id              : chr "581c4e1e95d0e01ffc1e16e9"
 ##  $ word_count       : chr "1494"
 ##  $ slideshow_credits: NULL
 ```
@@ -261,7 +261,7 @@ hits
 ```
 
 ```
-## [1] 613
+## [1] 614
 ```
 
 ```r

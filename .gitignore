@@ -1,6 +1,4 @@
 ## ignore data directory
 data/
-## ignore html files
-*.html
 ## ignore YAML config file with API key
 *yml
