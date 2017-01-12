@@ -52,6 +52,11 @@ But learning a more generic http requests package translates to other APIs, not 
 I prefer to store my API keys in a YAML config file. I add that file to .gitignore to avoid committing it to GitHub.
 
 ```{r}
+#' set working directory
+setwd("~/repos/nyt-api-httr-demo")
+```
+
+```{r}
 nyt_api <- yaml.load_file("nyt_api.yml")
 nyt_articlesearch_url <- 
   "https://api.nytimes.com/svc/search/v2/articlesearch.json"
