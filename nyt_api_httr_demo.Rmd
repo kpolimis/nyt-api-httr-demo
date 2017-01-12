@@ -102,9 +102,11 @@ str(docs[[1]])
 ```{r}
 modern_love_from_api <- 
     lapply(docs, function(x) {
+    ## x$byline$original may be NULL
+    author <- if(length(x$byline) > 0) x$byline$original else NA
     data_frame(pub_date = x$pub_date, 
                title = x$headline$main,
-               author = x$byline$original,
+               author = author,
                snippet = x$snippet,
                web_url = x$web_url)
     }) %>% bind_rows()
